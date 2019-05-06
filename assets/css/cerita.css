@@ -23,7 +23,7 @@ html{
 /* NAVBAR */
 .navbar {
     margin-bottom: 0;
-    background-color: #be1b1b;
+    background-color: black;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -38,7 +38,7 @@ html{
   }
   
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #be1b1b !important;
+    color: black !important;
     background-color: #fff !important;
   }
   
@@ -50,7 +50,7 @@ html{
 /* CONTAINER */
 
 .logo {
-    color: #be1b1b;
+    color: #333366;
     font-size: 180px;
     text-align: center;
     
@@ -72,13 +72,13 @@ html{
 
 .carousel-control.right, .carousel-control.left {
   background-image: none;
-  color: #f4511e;
+  color: #333366;
 }
 .carousel-indicators li {
-  border-color: #f4511e;
+  border-color: #333366;
 }
 .carousel-indicators li.active {
-  background-color: #f4511e;
+  background-color: #333366;
 }
 .item h4 {
   font-size: 19px;
@@ -92,9 +92,9 @@ html{
 }
 
 .narasi-cerita {
-  border-style: dotted;
-  border-width: 2px;  
-  border-color: #be1b1b;
+  border-style: dashed;
+  border-width: 3px;  
+  border-color: #333366;
   padding-right: 10px;
   /* margin-right: 5px; */
   text-align: justify;
@@ -104,5 +104,5 @@ html{
   footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #be1b1b;
+    color: #333366;
   }

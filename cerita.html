@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="./assets/css/cerita.css">
     <link rel="stylesheet" href="./assets/css/slideanim.css">
     <!-- <script src="./assets/js/slideanim.js"></script> -->
-    <script src="./d3/d3.min.js"></script>
+    
+    
+    
 </head>
 
 <body id="story" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -38,15 +40,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span> 
             </button>
-            <a class="navbar-brand" href="#">HOME</a>
+            <a class="navbar-brand" href="./Website_Meledak.html">HOME</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#about">VISUAL ESSAY</a></li>
                 <li><a href="#googleplaystore">PLAYSTORE</a></li>
                 <li><a href="#gallery">VISUALISASI</a></li>
-                <li><a href="#pricing">OPO LAGI</a></li>
-                <li><a href="#contact">HAHA</a></li>
+                <!-- <li><a href="#pricing">OPO LAGI</a></li>
+                <li><a href="#contact">HAHA</a></li> -->
             </ul>
             </div>
         </div>
@@ -57,7 +59,7 @@
         <div class="row" style="height:90vh">
             <div class="col-sm-8"> 
                 <br><br><br>
-                <div id="about-content" style=" border-style: dashed; border-color: #be1b1b; border-width: 2px; padding: 15px; margin: 7px; line-height: 1.6 " data-aos="slide-up">
+                <div id="about-content" style=" border-style: dashed; border-color: #333366; border-width: 2px; padding: 15px; margin: 7px; line-height: 1.6 " data-aos="slide-up">
                     <h2 style="text-align: center">Apa tu Visual Essay?</h2>
                     <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore et praesentium expedita rem cupiditate nihil nobis sunt quasi laborum ducimus, cumque labore officia necessitatibus assumenda deserunt maxime excepturi ullam autem!</strong>
                     <p><strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, fugit aliquid laudantium aperiam asperiores ullam voluptas placeat odio sed quo tempore ducimus fugiat quaerat harum architecto optio illum ex amet.</strong></p>
@@ -84,7 +86,7 @@
             </div>
             <div class="col-sm-8" data-aos="slide-up">
                 <br><br><br>
-                <div id="googleplaystore-content" style=" border-style: dashed; border-color: #be1b1b; border-width: 2px; padding: 15px; margin: 7px; line-height: 1.6 " data-aos="slide-up">
+                <div id="googleplaystore-content" style=" border-style: dashed; border-color: #333366; border-width: 2px; padding: 15px; margin: 7px; line-height: 1.6 " data-aos="slide-up">
                     <h2 style="text-align: center">Ceritain Gugel Play Store</h2>
                     <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore et praesentium expedita rem cupiditate nihil nobis sunt quasi laborum ducimus, cumque labore officia necessitatibus assumenda deserunt maxime excepturi ullam autem!</strong>
                     <p><strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, fugit aliquid laudantium aperiam asperiores ullam voluptas placeat odio sed quo tempore ducimus fugiat quaerat harum architecto optio illum ex amet.</strong></p>
@@ -104,8 +106,8 @@
     <div id="gallery" class="container-fluid" style="">
         <div class="row" style="height:90vh">
             <div class="col-sm-12">
-                <br><br><br>
-                <h2>UWU</h2><br>
+                <br><br>
+                <h2>READ THE STORY!!!</h2><br>
                 <div id="myCarousel" class="carousel slide text-center" data-ride="carousel" data-interval=false>
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -116,26 +118,48 @@
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox" style="background-color: whitesmoke">
+                        <!-- GAMBAR 1 -->
                         <div class="item active" >
-                            <div class="col-sm-6">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
                                 <div id="my_dataviz"></div>
+                                <script src="./d3/d3.min.js"></script>
                                 <script src="./assets/js/piechart.js"></script>
                             </div>
-                            <div class="col-sm-6 narasi-cerita">
+                            <div class="col-sm-5 narasi-cerita">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quibusdam consequuntur, iusto beatae quidem magni totam consectetur repellat debitis, suscipit voluptate. Odio reprehenderit beatae magnam reiciendis! Blanditiis odio libero quo!
                             </div>
+                            <div class="col-sm-1"></div>
                         </div>
+                        <!-- GAMBAR 2 -->
                         <div class="item">
-                            <div class="col-sm-6">
-                                    <img src="../VisualEssay/assets/images/blurred-background-coffee-cup-contemporary-908284.jpg" style="height: 450px; width: 450px;">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <div id="my_dataviz2"></div>
+                                <link rel="stylesheet" href="./assets/css/bubble-mbakyani.css">
+                                <script src="http://d3js.org/d3.v3.min.js"></script>
+                                <script src="./assets/js/bubble-mbakyani.js"></script>    
                             </div>
-                            <div class="col-sm-6 narasi-cerita">
+                            <div class="col-sm-5 narasi-cerita">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, facere fugiat alias repudiandae obcaecati autem qui maiores tempore ipsa veniam laboriosam ipsam accusamus corrupti neque temporibus architecto perspiciatis accusantium. Laboriosam.</p>
-                            </div>                            
+                            </div>             
+                            <div class="col-sm-1"></div>               
                         </div>
-                        <div class="item">
-                            <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
-                        </div>
+                       <!-- GAMBAR 3 -->
+                       <div class="item">
+                            <div class="col-sm-6">
+                                <!-- <div id="my_dataviz3"></div>
+                                <script src="https://d3js.org/d3.v4.js"></script>
+                                <link rel="stylesheet" href="./assets/css/lolipop.css">
+                                <div id="my_dataviz33"></div>
+                                -->
+                            </div>
+                            <div class="col-sm-5 narasi-cerita">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, facere fugiat alias repudiandae obcaecati autem qui maiores tempore ipsa veniam laboriosam ipsam accusamus corrupti neque temporibus architecto perspiciatis accusantium. Laboriosam.</p>
+                            </div>             
+                            <div class="col-sm-1"></div>               
+                        </div>                       
+                        
                     </div>
         
                     <!-- Left and right controls -->
@@ -152,16 +176,12 @@
             </div>
         <div class="row" style="width:100%; height:70px; position: relative; float: right">
             <button type="button" class="btn btn-danger" onclick="window.location = '#googleplaystore'"style="position: absolute; bottom:0; right: 0; margin-right: 30px; margin-bottom: 55px;">Prev</button>
-            <button type="button" class="btn btn-danger" onclick="window.location = '#'"style="position: absolute; bottom:0; right: 0; margin-right: 30px; margin-bottom: 15px;">Next</button>
+            <button type="button" class="btn btn-danger" onclick="window.location = '#footer'"style="position: absolute; bottom:0; right: 0; margin-right: 30px; margin-bottom: 15px;">Next</button>
         </div>
     </div>
 
-    <div id="portfolio" class="container-fluid"></div>
-    <div id="pricing" class="container-fluid"></div>
-    <div id="contact" class="container-fluid"></div>
-    
     <!-- FOOTER -->
-    <footer class="container-fluid text-center" style="">
+    <footer class="container-fluid text-center" id="footer">
         <a href="#story" title="To Top">
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
