@@ -1,0 +1,22 @@
+.x-axis path {
+    stroke:white;
+    fill:none;
+}
+.x-axis line {
+    fill: none;
+    stroke: none;
+    stroke-opacity:1;
+    shape-rendering: crispEdges;
+}
+.bars rect {
+    fill:rgb(211, 127, 0);
+    fill-opacity:.9;
+}
+.title {
+    font-weight: bold;
+    
+}
+#precise-value {
+    fill:white;
+    font-size: 10px;
+}

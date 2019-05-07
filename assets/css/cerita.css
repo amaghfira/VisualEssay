@@ -51,7 +51,7 @@ html{
 
 .logo {
     color: #333366;
-    font-size: 310px;
+    font-size: 180px;
     text-align: center;
     
   }
@@ -93,7 +93,7 @@ html{
 
 .narasi-cerita {
   border-style: dashed;
-  border-width: 3px;  
+  border-width: 2px;  
   border-color: #333366;
   padding-right: 10px;
   /* margin-right: 5px; */
@@ -102,7 +102,7 @@ html{
 
   /* FOOTER */
   footer .glyphicon {
-    font-size: 100px;
+    font-size: 20px;
     margin-bottom: 20px;
     color: #333366;
   }

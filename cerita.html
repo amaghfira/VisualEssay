@@ -27,7 +27,7 @@
         <h1>Google Play Store</h1>
         <p>Visual Essay</p>
         <br><br><br><br>
-        <button type="button" class="btn btn-danger" onclick="window.location = '#about'">Start Reading</button>
+        <button type="button" class="btn btn-danger" onclick="window.location = '#ggg'">Start Reading</button>
     </div>
     <!-- HEADER END -->
 
@@ -44,54 +44,24 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">VISUAL ESSAY</a></li>
+                <!-- <li><a href="#about">VISUAL ESSAY</a></li> -->
                 <li><a href="#googleplaystore">PLAYSTORE</a></li>
                 <li><a href="#gallery">VISUALISASI</a></li>
-                <!-- <li><a href="#pricing">OPO LAGI</a></li>
-                <li><a href="#contact">HAHA</a></li> -->
+                
             </ul>
             </div>
         </div>
     </nav>
     <!-- NAVBAR END -->
     <!-- CONTAINER-->
-    <div id="about" class="container-fluid" style="">
-        <div class="row" style="height:90vh">
-            <div class="col-sm-8"> 
-                <br><br><br>
-                <div id="about-content" style=" border-style: dashed; border-color: #333366; border-width: 2px; padding: 15px; margin: 7px; line-height: 1.6 " data-aos="slide-up">
-                    <h2 style="text-align: center">Apa itu Visual Essay?</h2>
-                    <p>Visual Essay adalah sekelompok gambar yang menggambarkan atau menjelajahi suatu topik
-                        tanpa teks apapun atau dapat berupa kombinasi visual atau gambar plus teks.</p>
-                    <br>
-                    <p>Visual Essay dapat berupa analisis/komentar/cerita tentang suatu ide dari topik apapun, mulai 
-                        dari berkebun, belajar, masalah politik, masalah lingkungan, hingga pemberontakan sosial.
-                    </p>
-                    <br>
-                    <p>Gambar yang digunakan dalam Visual Essay dapat berupa gambar saat ini atau yang dikumpulkan
-                        selama periode waktu tertentu dapat disajikan baik sebagai dokumen kata atau sebagai format 
-                        file gambar dengan beberapa teks yang disertakan
-                    </p>
-                  </div>
-            </div>
-            <div class="col-sm-4" data-aos="slide-up">
-                    <br><br><br>
-                <span class="glyphicon glyphicon-stats logo"></span>
-            </div>
-        </div>   
-        <div class="row" style="width:100%; height:70px; position: relative; float: right">
-            <button type="button" class="btn btn-danger" onclick="window.location = '#story'"style="position: absolute; bottom:0; right: 0; margin-right: 30px; margin-bottom: 55px;">Prev</button>
-            <button type="button" class="btn btn-danger" onclick="window.location = '#googleplaystore'"style="position: absolute; bottom:0; right: 0; margin-right: 30px; margin-bottom: 15px;">Next</button>
-        </div>
-    </div>
-
-    <div id="googleplaystore" class="container-fluid" style=" background-color: whitesmoke">
+    <div id="ggg"></div>
+    <div id="googleplaystore" class="container-fluid" style=" background-color: whitesmoke" data-aos="slide-up">
         <div class="row" style="height:90vh">
             <div class="col-sm-4" data-aos="slide-up"> 
                 <br><br><br>
                 <img src="./assets/img/google-android-store-apps-play-logo-brand-icon.svg" style="height: 300px; width: 300px; float:right; " >
             </div>
-            <div class="col-sm-8" data-aos="slide-up">
+            <div class="col-sm-7" data-aos="slide-up">
                 <br><br><br>
                 <div id="googleplaystore-content" style=" border-style: dashed; border-color: #333366; border-width: 2px; padding: 15px; margin: 7px; line-height: 1.6 " data-aos="slide-up">
                     <h2 style="text-align: center">Ceritain Gugel Play Store</h2>
@@ -101,9 +71,10 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita impedit ad cumque maxime tempora, quia quidem voluptas laudantium et! Expedita quidem iure asperiores, quasi eligendi temporibus quas voluptatibus sint repellat.</p>
                 </div>
             </div>
+            <div class="col-sm-1"></div>
         </div>   
         <div class="row" style="width:100%; height:70px; position: relative; float: right">
-            <button type="button" class="btn btn-danger" onclick="window.location = '#about'"style="position: absolute; bottom:0; right: 0; margin-right: 30px; margin-bottom: 55px;">Prev</button>
+            <button type="button" class="btn btn-danger" onclick="window.location = '#story'"style="position: absolute; bottom:0; right: 0; margin-right: 30px; margin-bottom: 55px;">Prev</button>
             <button type="button" class="btn btn-danger" onclick="window.location = '#gallery'"style="position: absolute; bottom:0; right: 0; margin-right: 30px; margin-bottom: 15px;">Next</button>
         </div>
     </div>
@@ -121,6 +92,8 @@
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
@@ -128,13 +101,22 @@
                         <!-- GAMBAR 1 -->
                         <div class="item active" >
                             <div class="col-sm-1"></div>
-                            <div class="col-sm-5">
-                                <div id="my_dataviz"></div>
-                                <script src="./d3/d3.min.js"></script>
-                                <script src="./assets/js/piechart.js"></script>
+                            <div class="col-sm-6">
+                                <script src="https://d3js.org/d3.v4.js"></script>
+                                <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+                                <div id="my_dataviz">
+                                    <script src="./assets/js/donatchart.js"></script>
+                                </div>
                             </div>
-                            <div class="col-sm-5 narasi-cerita">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quibusdam consequuntur, iusto beatae quidem magni totam consectetur repellat debitis, suscipit voluptate. Odio reprehenderit beatae magnam reiciendis! Blanditiis odio libero quo!
+                            <div class="col-sm-4 narasi-cerita">
+                                <p style="font-size:18px;"> Dari Dataset yang berukuran cukup besar, terdapat 33 jenis kategori yang dapat dikerucutkan 
+                                menjadi 7 kategori yang lebih umum. ketujuh kategori ini tentu memiliki frequensi didownload yang
+                                berbeda-beda. </p>
+                                
+                                <p style="font-size:18px;">Donut Chart di samping menggambarkan frekuensi apliikasi yang di download menururt kategorinya.
+                                Terlihat bahwa aplikasi yang paling banyak di download adalah aplikasi yang masuk dalam kategorinya sosial,
+                                dan yang paling sedikit adalah aplikasi yang termasuk kategori Knowledge atau ilmu pengetahuan.
+                                </p>
                             </div>
                             <div class="col-sm-1"></div>
                         </div>
@@ -148,25 +130,214 @@
                                 <script src="./assets/js/bubble-mbakyani.js"></script>    
                             </div>
                             <div class="col-sm-5 narasi-cerita">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, facere fugiat alias repudiandae obcaecati autem qui maiores tempore ipsa veniam laboriosam ipsam accusamus corrupti neque temporibus architecto perspiciatis accusantium. Laboriosam.</p>
+                                <p>Pada kategori social life, sub-sub kategorinya memiliki ukuran aplikasi yang relative kecil yaitu dengan rentang 12.3Mb sampai  26.37Mb. Kategori ini memiliki range rating antara 3.96 sampai 4.48, sehingga dapat dikatakan aplikasi-aplikasi dalam kategori ini memiliki rating yang cukup bervariasi. Sub kategori dalam kategori Social Life yang jumlah download nya paling sedikit adalah Social dengan jumlah 143,497.1481, dan yang jumlah downloadnya terbanyak adalah kategori Communication 23,421,400.62</p>
+                                <p>Kategori Hobby memiliki rating tinggi dengan range 4 sampai 4.36. Kategori ini memiliki varians ukuran aplikasi yang besar dengan range 11.37Mb sampai 45.295Mb. Subkategori dalam kategori Hobby yang jumlah download nya paling sedikit adalah Beauty dengan jumlah 362,600, dan yang jumlah download terbanyaknya adalah subkategori House and Home yaitu 30,671,922.71</p>
+                                <p>Kategori Economy and Business memiliki rating dengan range 4.112 sampai 4.257. sub-sub kategori dalam kategori ini memiliki ukuran aplikasi dengan range 14.698Mb sampai 30.0135Mb. Subkategori dalam kategori Hobby jumlah download nya relative sama dengan range 1,191305.639 sampai 5,227,347.316</p>
+                                <p>Kategori Knowledge and Science memiliki rating yang bervariasi dengan range 4 sampai 4.387. Sub-sub kategori dalam kategori ini memiliki ukuran aplikasi dengan range 14.12Mb sampai 24.068Mb. Subkategori dalam kategori Hobby jumlah download nya memiliki range 970,723.2986 sampai 3,894,198.296</p>
+                                <p>Kategori Other memiliki rating dengan range 4 sampai 4.24. Sub-sub kategori dalam kategori ini memiliki ukuran aplikasi dengan range 8.0175Mb sampai 25.169Mb. Subkategori dalam kategori Hobby jumlah download nya memiliki range 2,228,989.375 sampai 11,6669,370.55</p>
                             </div>             
                             <div class="col-sm-1"></div>               
-                        </div>
-                       <!-- GAMBAR 3 -->
-                       <div class="item">
+                        </div>  
+                        <!-- GAMBAR 3 -->
+                        <div class="item">
+                            <div class="col-sm-1"></div>
                             <div class="col-sm-6">
-                                <!-- <div id="my_dataviz3"></div>
-                                <script src="https://d3js.org/d3.v4.js"></script>
-                                <link rel="stylesheet" href="./assets/css/lolipop.css">
-                                <div id="my_dataviz33"></div>
-                                -->
+                                <div id="target"></div>
+                                <link rel="stylesheet" href="./assets/css/starplot.css">
+                                <script src="./assets/js/d3-starPlot.js"></script>
+                                <script>
+                                    var margin = {
+                                    top: 36,
+                                    right: 50,
+                                    bottom: 20,
+                                    left: 50
+                                    };
+                                    var width = 400 - margin.left - margin.right;
+                                    var height = 330 - margin.top - margin.bottom;
+                                    var labelMargin = 8;
+
+                                    var scale = d3.scale.linear()
+                                    .domain([0, 5])
+                                    .range([0, 100])
+
+                                    d3.csv('data.csv')
+                                    .row(function(d) {
+                                        d.ECONOMY_AND_BUSSINESS = +d.ECONOMY_AND_BUSSINESS;
+                                        d.FAMILY = +d.FAMILY;
+                                        d.GAME = +d.GAME;
+                                        d.HOBBIES = +d.HOBBIES;
+                                        d.KNOWLEDGE_AND_SCIENCE = +d.KNOWLEDGE_AND_SCIENCE;
+                                        d.SOCIAL_LIFE = +d.SOCIAL_LIFE;
+                                        d.OTHERS = +d.OTHERS;	  
+                                        return d;
+                                    })
+                                    .get(function(error, rows) {
+                                        var star = d3.starPlot()
+                                        .width(width)
+                                        .accessors([
+                                            function(d) { return scale(d.SOCIAL_LIFE); },
+                                            function(d) { return scale(d.FAMILY); },
+                                            function(d) { return scale(d.GAME); },
+                                            function(d) { return scale(d.HOBBIES); },
+                                            function(d) { return scale(d.ECONOMY_AND_BUSSINESS); },
+                                            function(d) { return scale(d.KNOWLEDGE_AND_SCIENCE); },
+                                            function(d) { return scale(d.OTHERS); },
+                                        ])
+                                        .labels([
+                                        function(d) {return 'GAME(' + d.SOCIAL_LIFE.toFixed(2) + ')'},
+                                        function(d) {return 'FAMILY(' + d.FAMILY.toFixed(2) + ')'},
+                                        function(d) {return 'GAME(' + d.FAMILY.toFixed(2) + ')'},
+                                        function(d) {return 'HOBBIES(' + d.FAMILY.toFixed(2) + ')'},
+                                        function(d) {return 'ECONOMY_AND_BUSSINESS(' + d.FAMILY.toFixed(2) + ')'},
+                                        function(d) {return 'KNOWLEDGE_AND_SCIENCE(' + d.FAMILY.toFixed(2) + ')'},
+                                        function(d) {return 'OTHERS(' + d.FAMILY.toFixed(2) + ')'},
+                                        ])
+                                        .title(function(d) { return "Rating" })
+                                        .margin(margin)
+                                        .labelMargin(labelMargin)
+
+                                        rows.forEach(function(d, i) {
+                                        star.includeLabels(i % 4 === 0 ? true : false);
+
+                                        d3.select('#target').append('svg')
+                                            .attr('class', 'chart')
+                                            .attr('width', width + margin.left + margin.right)
+                                            .attr('height', height + margin.top + margin.bottom)
+                                            .append('g')
+                                            .datum(d)
+                                            .call(star)
+                                        });
+                                    });
+                                    </script>
                             </div>
-                            <div class="col-sm-5 narasi-cerita">
+                            <div class="col-sm-4 narasi-cerita">
+                                <p style="font-size: 16px;">Rata-rata rating aplikasi untuk tiap kategori tidak berbeda jauh. Berada pada kisaran 4 bintang. Menunjukkan aplikasi yang diupload di Google Play Store memiliki kualitas yang baik berdasarkan penilaian pengguna. Hal ini wajar karena harus membayar sekitar Rp 200Rb jika ingin mengupload ke Google Play Store, sehingga tidak akan ada orang yang mau membayar untuk mengupload aplikasi gagal dan mempermalukan dirinya, kecuali orang itu benar-benar kaya dan kurang kerjaan.</p>
+                            </div>             
+                            <div class="col-sm-1"></div>               
+                        </div>                   
+                        <!-- GAMBAR 4 -->
+                       <div class="item">
+                            <div class="col-sm-8">
+                                <div id="my_dataviz4"></div>
+                                <link rel="stylesheet" href="./assets/css/ranked-chart.css">
+                                <script type="text/javascript">
+
+                                (function(){
+
+                                    var margin = {top: 50, bottom: 0, left:250, right: 40};
+                                    var width = 900 - margin.left - margin.right;
+                                    var height = 450 - margin.top - margin.bottom;
+
+                                    var xScale = d3.scale.linear().range([0, width]);
+                                    var yScale = d3.scale.ordinal().rangeRoundBands([0, height], 0.2,0);
+
+                                    var numTicks = 6;
+                                    var xAxis = d3.svg.axis().scale(xScale)
+                                                    .orient("top")
+                                                    .tickSize((-height))
+                                                    .ticks(numTicks);
+
+                                    var svg = d3.select("#my_dataviz4").append("svg")
+                                                .attr("width", width+margin.left+margin.right)
+                                                .attr("height", height+margin.top+margin.bottom)
+                                                .attr("class", "base-svg");
+
+                                    var barSvg = svg.append("g")
+                                                .attr("transform", "translate("+margin.left+","+margin.top+")")
+                                                .attr("class", "bar-svg");
+
+                                    var x = barSvg.append("g")
+                                            .attr("class", "x-axis");
+
+                                    var url = "csvjson.json";
+
+                                    d3.json(url, function(data) {
+
+                                        var xMax = d3.max(data, function(d) { return d.Freq; } );
+                                        var xMin = 0;
+                                        xScale.domain([xMin, xMax]);
+                                        yScale.domain(data.map(function(d) { return d.Category; }));
+
+                                        d3.select(".base-svg").append("text")
+                                            .attr("x", margin.left)
+                                            .attr("y", (margin.top)/2)
+                                            .attr("text-anchor", "start")
+                                            .text("Kategori App Google Playstore yang Paling Banyak di Unggah Pada Tahun 2018")
+                                            .attr("class", "title");
+
+                                        var groups = barSvg.append("g").attr("class", "labels")
+                                                    .selectAll("text")
+                                                    .data(data)
+                                                    .enter()
+                                                    .append("g");
+
+                                        groups.append("text")
+                                                .attr("x", "0")
+                                                .attr("y", function(d) { return yScale(d.Category); })
+                                                .text(function(d) { return d.Category; })
+                                                .attr("text-anchor", "end")
+                                                .attr("dy", "0.9em")
+                                                .attr("dx", "-.32em")
+                                                .attr("font-size","10px")
+                                                .attr("id", function(d,i) { return "label"+i; });
+
+                                        var bars = groups
+                                                    .attr("class", "bars")
+                                                    .append("rect")
+                                                    .attr("width", function(d) { return xScale(d.Freq); })
+                                                    .attr("height", height/50)
+                                                    .attr("x", xScale(xMin))
+                                                    .attr("y", function(d) { return yScale(d.Category); })
+                                                    .attr("id", function(d,i) { return "bar"+i; });
+
+                                        groups.append("text")
+                                                .attr("x", function(d) { return xScale(d.Freq); })
+                                                .attr("y", function(d) { return yScale(d.Category); })
+                                                .text(function(d) { return d.Freq; })
+                                                .attr("text-anchor", "end")
+                                                .attr("dy", "0.9em")
+                                                .attr("dx", "-.32em")
+                                                .attr("id", "precise-value");
+
+                                        bars
+                                            .on("mouseover", function() {
+                                                var currentGroup = d3.select(this.parentNode);
+                                                currentGroup.select("rect").style("fill", "brown");
+                                                currentGroup.select("text").style("font-weight", "bold");
+                                            })
+                                            .on("mouseout", function() {
+                                                var currentGroup = d3.select(this.parentNode);
+                                                currentGroup.select("rect").style("fill", "steelblue");
+                                                currentGroup.select("text").style("font-weight", "normal");
+                                            });
+
+                                        x.call(xAxis);
+                                        var grid = xScale.ticks(numTicks);
+                                        barSvg.append("g").attr("class", "grid")
+                                            .selectAll("line")
+                                            .data(grid, function(d) { return d; })
+                                            .enter().append("line")
+                                                .attr("y1", 0)
+                                                .attr("y2", height+margin.bottom)
+                                                .attr("x1", function(d) { return xScale(d); })
+                                                .attr("x2", function(d) { return xScale(d); })
+                                                .attr("stroke", "white");
+
+                                        //svg.selectAll("rect")
+                                            //.transition()
+                                            //.duration(2000)
+                                            //.attr("x", function(d) { return xScale(d.Freq); })
+                                    });
+
+                                })();
+
+                                </script>
+                            </div>
+                            <div class="col-sm-3 narasi-cerita">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, facere fugiat alias repudiandae obcaecati autem qui maiores tempore ipsa veniam laboriosam ipsam accusamus corrupti neque temporibus architecto perspiciatis accusantium. Laboriosam.</p>
                             </div>             
                             <div class="col-sm-1"></div>               
-                        </div>                       
-                        
+                        </div>                     
                     </div>
         
                     <!-- Left and right controls -->

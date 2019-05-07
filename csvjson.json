@@ -1,0 +1,134 @@
+[
+  {
+    "Category": "FAMILY",
+    "Freq": 1137
+  },
+  {
+    "Category": "GAME",
+    "Freq": 766
+  },
+  {
+    "Category": "TOOLS",
+    "Freq": 494
+  },
+  {
+    "Category": "MEDICAL",
+    "Freq": 308
+  },
+  {
+    "Category": "BUSINESS",
+    "Freq": 301
+  },
+  {
+    "Category": "FINANCE",
+    "Freq": 295
+  },
+  {
+    "Category": "SPORTS",
+    "Freq": 291
+  },
+  {
+    "Category": "PRODUCTIVITY",
+    "Freq": 283
+  },
+  {
+    "Category": "COMMUNICATION",
+    "Freq": 274
+  },
+  {
+    "Category": "HEALTH_AND_FITNESS",
+    "Freq": 274
+  },
+  {
+    "Category": "SHOPPING",
+    "Freq": 227
+  },
+  {
+    "Category": "SOCIAL",
+    "Freq": 225
+  },
+  {
+    "Category": "NEWS_AND_MAGAZINES",
+    "Freq": 223
+  },
+  {
+    "Category": "LIFESTYLE",
+    "Freq": 223
+  },
+  {
+    "Category": "PHOTOGRAPHY",
+    "Freq": 219
+  },
+  {
+    "Category": "PERSONALIZATION",
+    "Freq": 217
+  },
+  {
+    "Category": "DATING",
+    "Freq": 212
+  },
+  {
+    "Category": "TRAVEL_AND_LOCAL",
+    "Freq": 200
+  },
+  {
+    "Category": "ENTERTAINMENT",
+    "Freq": 142
+  },
+  {
+    "Category": "BOOKS_AND_REFERENCE",
+    "Freq": 117
+  },
+  {
+    "Category": "FOOD_AND_DRINK",
+    "Freq": 114
+  },
+  {
+    "Category": "VIDEO_PLAYERS",
+    "Freq": 113
+  },
+  {
+    "Category": "EDUCATION",
+    "Freq": 111
+  },
+  {
+    "Category": "MAPS_AND_NAVIGATION",
+    "Freq": 104
+  },
+  {
+    "Category": "AUTO_AND_VEHICLES",
+    "Freq": 74
+  },
+  {
+    "Category": "HOUSE_AND_HOME",
+    "Freq": 68
+  },
+  {
+    "Category": "WEATHER",
+    "Freq": 61
+  },
+  {
+    "Category": "ART_AND_DESIGN",
+    "Freq": 53
+  },
+  {
+    "Category": "PARENTING",
+    "Freq": 51
+  },
+  {
+    "Category": "COMICS",
+    "Freq": 50
+  },
+  {
+    "Category": "EVENTS",
+    "Freq": 46
+  },
+  {
+    "Category": "BEAUTY",
+    "Freq": 40
+  },
+  {
+    "Category": "LIBRARIES_AND_DEMO",
+    "Freq": 36
+  }
+]
