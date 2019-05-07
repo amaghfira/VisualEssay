@@ -121,8 +121,6 @@
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                    <li data-target="#myCarousel" data-slide-to="4"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
@@ -130,14 +128,12 @@
                         <!-- GAMBAR 1 -->
                         <div class="item active" >
                             <div class="col-sm-1"></div>
-                            <div class="col-sm-6">
-                                <script src="https://d3js.org/d3.v4.js"></script>
-                                <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-                                <div id="my_dataviz">
-                                    <script src="./assets/js/donatchart.js"></script>
-                                </div>
+                            <div class="col-sm-5">
+                                <div id="my_dataviz"></div>
+                                <script src="./d3/d3.min.js"></script>
+                                <script src="./assets/js/piechart.js"></script>
                             </div>
-                            <div class="col-sm-4 narasi-cerita">
+                            <div class="col-sm-5 narasi-cerita">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quibusdam consequuntur, iusto beatae quidem magni totam consectetur repellat debitis, suscipit voluptate. Odio reprehenderit beatae magnam reiciendis! Blanditiis odio libero quo!
                             </div>
                             <div class="col-sm-1"></div>
@@ -155,94 +151,22 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, facere fugiat alias repudiandae obcaecati autem qui maiores tempore ipsa veniam laboriosam ipsam accusamus corrupti neque temporibus architecto perspiciatis accusantium. Laboriosam.</p>
                             </div>             
                             <div class="col-sm-1"></div>               
-                        </div>  
-                        <!-- GAMBAR 3 -->
-                        <div class="item">
-                            <div class="col-sm-1"></div>
-                            <div class="col-sm-5">
-                                <div id="target"></div>
-                                <link rel="stylesheet" href="./assets/css/starplot.css">
-                                <script src="./assets/js/d3-starPlot.js"></script>
-                                <script>
-                                    var margin = {
-                                    top: 36,
-                                    right: 50,
-                                    bottom: 20,
-                                    left: 50
-                                    };
-                                    var width = 330 - margin.left - margin.right;
-                                    var height = 330 - margin.top - margin.bottom;
-                                    var labelMargin = 8;
-
-                                    var scale = d3.scale.linear()
-                                    .domain([0, 5])
-                                    .range([0, 100])
-
-                                    d3.csv('data.csv')
-                                    .row(function(d) {
-                                        d.ECONOMY_AND_BUSSINESS = +d.ECONOMY_AND_BUSSINESS;
-                                        d.FAMILY = +d.FAMILY;
-                                        d.GAME = +d.GAME;
-                                        d.HOBBIES = +d.HOBBIES;
-                                        d.KNOWLEDGE_AND_SCIENCE = +d.KNOWLEDGE_AND_SCIENCE;
-                                        d.SOCIAL_LIFE = +d.SOCIAL_LIFE;
-                                        d.OTHERS = +d.OTHERS;	  
-                                        return d;
-                                    })
-                                    .get(function(error, rows) {
-                                        var star = d3.starPlot()
-                                        .width(width)
-                                        .accessors([
-                                            function(d) { return scale(d.SOCIAL_LIFE); },
-                                            function(d) { return scale(d.FAMILY); },
-                                            function(d) { return scale(d.GAME); },
-                                            function(d) { return scale(d.HOBBIES); },
-                                            function(d) { return scale(d.ECONOMY_AND_BUSSINESS); },
-                                            function(d) { return scale(d.KNOWLEDGE_AND_SCIENCE); },
-                                            function(d) { return scale(d.OTHERS); },
-                                        ])
-                                        .labels([
-                                            'GAME',
-                                            'FAMILY',
-                                            'ECONOMY AND BUSSINESS',
-                                            'HOBBIES',
-                                            'SOCIAL LIFE',
-                                            'KNOWLEDGE AND SCIENCE',
-                                            'OTHERS',
-                                        ])
-                                        .title(function(d) { return "Rating" })
-                                        .margin(margin)
-                                        .labelMargin(labelMargin)
-
-                                        rows.forEach(function(d, i) {
-                                        star.includeLabels(i % 4 === 0 ? true : false);
-
-                                        d3.select('#target').append('svg')
-                                            .attr('class', 'chart')
-                                            .attr('width', width + margin.left + margin.right)
-                                            .attr('height', height + margin.top + margin.bottom)
-                                            .append('g')
-                                            .datum(d)
-                                            .call(star)
-                                        });
-                                    });
-                                    </script>
-                            </div>
-                            <div class="col-sm-5 narasi-cerita">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, facere fugiat alias repudiandae obcaecati autem qui maiores tempore ipsa veniam laboriosam ipsam accusamus corrupti neque temporibus architecto perspiciatis accusantium. Laboriosam.</p>
-                            </div>             
-                            <div class="col-sm-1"></div>               
-                        </div>                   
-                        <!-- GAMBAR 5 -->
+                        </div>
+                       <!-- GAMBAR 3 -->
                        <div class="item">
                             <div class="col-sm-6">
-                                
+                                <!-- <div id="my_dataviz3"></div>
+                                <script src="https://d3js.org/d3.v4.js"></script>
+                                <link rel="stylesheet" href="./assets/css/lolipop.css">
+                                <div id="my_dataviz33"></div>
+                                -->
                             </div>
                             <div class="col-sm-5 narasi-cerita">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, facere fugiat alias repudiandae obcaecati autem qui maiores tempore ipsa veniam laboriosam ipsam accusamus corrupti neque temporibus architecto perspiciatis accusantium. Laboriosam.</p>
                             </div>             
                             <div class="col-sm-1"></div>               
-                        </div>                     
+                        </div>                       
+                        
                     </div>
         
                     <!-- Left and right controls -->
