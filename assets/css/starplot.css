@@ -1,0 +1,29 @@
+#target {
+    margin: 40px 0px;
+  }
+  .chart {
+    margin-bottom: 40px;
+  }
+  .star-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .star-label {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .star-origin {
+    fill: #333;
+  }
+  .star-axis {
+    stroke: red;
+    stroke-width: 2px;
+    stroke-dasharray: 4 5;
+  }
+  .star-path {
+    stroke: #444;
+    stroke-width: 2px;
+    fill: grey;
+    fill-opacity: 0.2;
+  }
+  
