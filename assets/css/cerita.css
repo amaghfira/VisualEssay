@@ -51,7 +51,7 @@ html{
 
 .logo {
     color: #333366;
-    font-size: 180px;
+    font-size: 310px;
     text-align: center;
     
   }
@@ -102,7 +102,7 @@ html{
 
   /* FOOTER */
   footer .glyphicon {
-    font-size: 20px;
+    font-size: 100px;
     margin-bottom: 20px;
     color: #333366;
   }
