@@ -1,10 +1,5 @@
 # VisualEssay
-Jangan lupa backup sebelum pull.
-<p>Gapaham mbak pull apa? -faza </p>
-hehe
-<p> Nge-pull tu narik </p>
 
-<p> eh nge push deh maksutnyaa 
-Maap2 <p> 
+Buka Website_Meledak.html lewat localhost . Website Meledak adalah landing page dari halaman visual essay. 
 
-<h>YEAY!!! Tetap gk paham</h>
+
