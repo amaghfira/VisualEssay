@@ -5,8 +5,8 @@ d3.csv("new33.csv", function(data){
 	  // Variables
 	  var body = d3.select('#my_dataviz2')
 		var margin = { top: 50, right: 50, bottom: 50, left: 50 }
-		var h = 500 - margin.top - margin.bottom
-		var w = 500 - margin.left - margin.right
+		var h = 450 - margin.top - margin.bottom
+		var w = 450 - margin.left - margin.right
 		// Scales
 	  var colorScale = d3.scale.ordinal()
 						.domain([function (d) { return d.General }])
