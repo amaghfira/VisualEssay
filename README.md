@@ -1,5 +1,7 @@
 # VisualEssay
 
-Buka Website_Meledak.html lewat localhost . Website Meledak adalah landing page dari halaman visual essay. 
+## Dataset 
+Penjelasan mengenai dataset yang digunakan bisa dibuka di https://github.com/amaghfira/VisualEssay/wiki/Dataset 
 
-
+## Dokumentasi Petunjuk Penggunaan
+Dokumentasi dapat dilihat di https://github.com/amaghfira/VisualEssay/wiki/Dokumentasi
