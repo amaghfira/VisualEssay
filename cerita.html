@@ -63,8 +63,8 @@
             </div>
             <div class="col-sm-7" data-aos="slide-up">
                 <br><br><br>
-                <div id="googleplaystore-content" style=" border-style: dashed; border-color: #333366; border-width: 2px; padding: 15px; margin: 7px; line-height: 1.6 " data-aos="slide-up">
-                    <h2 style="text-align: center">Google Play Store</h2>
+                <div id="googleplaystore-content" class="gps-content" style=" border-style: dashed; border-color: #333366; border-width: 2px; padding: 15px; margin: 7px; line-height: 1.6; font-size: 16px; " data-aos="slide-up">
+                    <h2 style="text-align: center; color:darkslategrey">Google Play Store</h2><br>
                     <p>Google Play adalah layanan konten digital milik Google yang melingkupi
                         toko daring untuk produk-produk seperti musik/lagu, buku, aplikasi,
                         permainan, ataupun pemutar media berbasis awan.
@@ -74,6 +74,19 @@
                         Konten yang telah dibeli tersedia pada seluruh platform-platform di atas Google Play
                         mulai dikenalkan pada Bulan Maret 2012 sebagai pengganti dari Android Market
                         dan Layanan Musik Google.
+                    </p>
+                    <p>
+                        Saat ini, diperkirakan telah ada lebih dari 450.000 aplikasi di Android Market, dan pertumbuhan jumlah aplikasi ini terbilang sangat cepat. Pada November 2009, jumlah aplikasi di Android Market hanya sekitar 2.300 aplikasi. Maret 2010, Android Market telah memiliki 30.000 aplikasi. 
+                        Sementara pada Agustus 2010, telah terdapat lebih dari 80.000 aplikasi di Android Market. 
+                        Diprediksikan, pada akhir 2010 aplikasi di Android Market akan berjumlah 150.000 aplikasi.
+                    </p>
+                    <p>
+                        Dari ratusan ribu aplikasi tersebut, lebih dari setengahnya tidak berbayar. Menurut data yang dikeluarkan Distimo, sebuah firma app store analytic, pada Juni 2010, 57% aplikasi di Android Market adalah aplikasi tak berbayar.
+                        Tidak mengherankan jika dalam waktu kurang dari dua tahun sejak dibukanya Android Market, telah ada lebih dari 1 juta kali unduhan.
+                        Meski banyak aplikasi gratis, namun bukan berarti google play tidak menguntngkan para developer. 
+                        Keuntungan biasanya datang dari para pengiklan yang ingin menyisipkan iklannya dalam aplikasi. Bila pengguna aplikasi meng-klik 
+                        iklan tersebut, developer akan mendapatkan keuntungan sekitar 0.01-0.05 USD. Sedangkan untuk aplikasi berbayar, google menerapkan 
+                        kebijakan pembagian keuntungan sebesar 70% untuk developer dan 30% untuk Google Market. 
                     </p>
                 </div>
             </div>
@@ -87,11 +100,11 @@
     <br>
 
     <!-- CAROSEL -->
-    <div id="gallery" class="container-fluid asw" style="">
-        <div class="row" style="height:90vh">
+    <div id="gallery" class="container-fluid asw" style="background-color: #ebd5bd">
+        <div class="row" style="height:90vh; ">
             <div class="col-sm-12">
                 <br><br>
-                <h2>READ THE STORY!!!</h2><br>
+                <h2 style="color:darkslategrey">READ THE STORY!!!</h2><br>
                 <div id="myCarousel" class="carousel slide text-center" data-ride="carousel" data-interval=false>
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -107,47 +120,50 @@
                         <!-- GAMBAR 1 -->
                         <div class="item active" >
                             <div class="col-sm-1"></div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6" style="height:490px;">
                                 <script src="https://d3js.org/d3.v4.js"></script>
                                 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
                                 <div id="my_dataviz">
                                     <script src="./assets/js/donatchart.js"></script>
                                 </div>
                             </div>
-                            <div class="col-sm-4 narasi-cerita">
-                                <p style="font-size:18px;"> Dari Dataset yang berukuran cukup besar, terdapat 33 jenis kategori yang dapat dikerucutkan 
+                            <div class="col-sm-4 narasi-cerita gambar-1" style="font-size:16px; margin-top: 15px">
+                                <h3 style="text-align:center; line-height: 1.375em; color:darkslategrey">Frekuensi Download per Kategori</h3><br>
+                                <p> Dari Dataset yang berukuran cukup besar, terdapat 33 jenis kategori yang dapat dikerucutkan 
                                 menjadi 7 kategori yang lebih umum. ketujuh kategori ini tentu memiliki frequensi didownload yang
                                 berbeda-beda. </p>
                                 
-                                <p style="font-size:18px;">Donut Chart di samping menggambarkan frekuensi apliikasi yang di download menururt kategorinya.
+                                <p>Donut Chart di samping menggambarkan frekuensi apliikasi yang di download menururt kategorinya.
                                 Terlihat bahwa aplikasi yang paling banyak di download adalah aplikasi yang masuk dalam kategorinya sosial,
                                 dan yang paling sedikit adalah aplikasi yang termasuk kategori Knowledge atau ilmu pengetahuan.
                                 </p>
+                                <br>
                             </div>
                             <div class="col-sm-1"></div>
                         </div>
                         <!-- GAMBAR 2 -->
                         <div class="item">
                             <div class="col-sm-1"></div>
-                            <div class="col-sm-5">
+                            <div class="col-sm-5" style="height:490px;">
                                 <div id="my_dataviz2"></div>
                                 <link rel="stylesheet" href="./assets/css/bubble-mbakyani.css">
                                 <script src="http://d3js.org/d3.v3.min.js"></script>
                                 <script src="./assets/js/bubble-mbakyani.js"></script>    
                             </div>
-                            <div class="col-sm-5 narasi-cerita">
+                            <div class="col-sm-4 narasi-cerita gambar-2" style="font-size:16px;margin-top: 15px">
+                                <h3 style="text-align:center; line-height: 1.375em; color:darkslategrey">Rating Kategori & Frekuensi Donwload Sub-Kategori</h3><br>
                                 <p>Pada kategori social life, sub-sub kategorinya memiliki ukuran aplikasi yang relative kecil yaitu dengan rentang 12.3Mb sampai  26.37Mb. Kategori ini memiliki range rating antara 3.96 sampai 4.48, sehingga dapat dikatakan aplikasi-aplikasi dalam kategori ini memiliki rating yang cukup bervariasi. Sub kategori dalam kategori Social Life yang jumlah download nya paling sedikit adalah Social dengan jumlah 143,497.1481, dan yang jumlah downloadnya terbanyak adalah kategori Communication 23,421,400.62</p>
                                 <p>Kategori Hobby memiliki rating tinggi dengan range 4 sampai 4.36. Kategori ini memiliki varians ukuran aplikasi yang besar dengan range 11.37Mb sampai 45.295Mb. Subkategori dalam kategori Hobby yang jumlah download nya paling sedikit adalah Beauty dengan jumlah 362,600, dan yang jumlah download terbanyaknya adalah subkategori House and Home yaitu 30,671,922.71</p>
                                 <p>Kategori Economy and Business memiliki rating dengan range 4.112 sampai 4.257. sub-sub kategori dalam kategori ini memiliki ukuran aplikasi dengan range 14.698Mb sampai 30.0135Mb. Subkategori dalam kategori Hobby jumlah download nya relative sama dengan range 1,191305.639 sampai 5,227,347.316</p>
                                 <p>Kategori Knowledge and Science memiliki rating yang bervariasi dengan range 4 sampai 4.387. Sub-sub kategori dalam kategori ini memiliki ukuran aplikasi dengan range 14.12Mb sampai 24.068Mb. Subkategori dalam kategori Hobby jumlah download nya memiliki range 970,723.2986 sampai 3,894,198.296</p>
                                 <p>Kategori Other memiliki rating dengan range 4 sampai 4.24. Sub-sub kategori dalam kategori ini memiliki ukuran aplikasi dengan range 8.0175Mb sampai 25.169Mb. Subkategori dalam kategori Hobby jumlah download nya memiliki range 2,228,989.375 sampai 11,6669,370.55</p>
                             </div>             
-                            <div class="col-sm-1"></div>               
+                            <div class="col-sm-2"></div>               
                         </div>  
                         <!-- GAMBAR 3 -->
                         <div class="item">
                             <div class="col-sm-1"></div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6" style="height:490px;">
                                 <div id="target"></div>
                                 <link rel="stylesheet" href="./assets/css/starplot.css">
                                 <script src="./assets/js/d3-starPlot.js"></script>
@@ -216,14 +232,16 @@
                                     });
                                     </script>
                             </div>
-                            <div class="col-sm-4 narasi-cerita">
+                            <div class="col-sm-4 narasi-cerita gambar-3" style="margin-top: 15px">
+                                <h3 style="text-align:center; line-height: 1.375em; color:darkslategrey">Penilaian Pengguna</h3><br>
                                 <p style="font-size: 16px;">Rata-rata rating aplikasi untuk tiap kategori tidak berbeda jauh. Berada pada kisaran 4 bintang. Menunjukkan aplikasi yang diupload di Google Play Store memiliki kualitas yang baik berdasarkan penilaian pengguna. Hal ini wajar karena harus membayar sekitar Rp 200Rb jika ingin mengupload ke Google Play Store, sehingga tidak akan ada orang yang mau membayar untuk mengupload aplikasi gagal dan mempermalukan dirinya, kecuali orang itu benar-benar kaya dan kurang kerjaan.</p>
+                                <br>
                             </div>             
                             <div class="col-sm-1"></div>               
                         </div>                   
                         <!-- GAMBAR 4 -->
                        <div class="item">
-                            <div class="col-sm-8">
+                            <div class="col-sm-8" style="height:490px;">
                                 <div id="my_dataviz4"></div>
                                 <link rel="stylesheet" href="./assets/css/ranked-chart.css">
                                 <script type="text/javascript">
@@ -339,18 +357,19 @@
 
                                 </script>
                             </div>
-                            <div class="col-sm-3 narasi-cerita">
+                            <div class="col-sm-3 narasi-cerita gambar-4" style="font-size:16px;margin-top: 15px">
+                                <h3 style="text-align:center; line-height: 1.375em; color:darkslategrey">Frekuensi Upgrade Aplikasi</h3><br>
                                 <p>Dalam kurun waktu satu tahun terakhir tepatnya pada tahun 2018 terdapat 7349 App di Google Playstore yang diupadate.
                                     Berdasarkan kategori App yang di Update, kategori yang di update terbanyak yaitu kategori FAMILY,
                                     Sedangkan untuk kategori yang paling sedikit di update yaitu kategori lIBRARIES and DEMO.
                                     
                                     terdapat ketimpangan yang cukup besar dari kategori FAMILY dengan kategori lainnya yang mana jumlah App yang kategori FAMILY yang di update 
                                     memiliki jumlah 2 sampai 30 kali lipat dari jumlah App yang diupdate berdasarkan kategori lainnya.
-                                    Rata-Rata terdapat 223 App untuk setiap kategori yang diupdate. 
-                                    
-                                    </p>
+                                    Rata-Rata terdapat 223 App untuk setiap kategori yang diupdate.     
+                                </p>
+                                
                             </div>             
-                            <div class="col-sm-1"></div>               
+                            <div class="col-sm-1"></div>
                         </div>                     
                     </div>
         
@@ -366,14 +385,14 @@
                     </div>
                 </div>   
             </div>
-        <div class="row" style="width:100%; height:70px; position: relative; float: right">
+        <div class="row" style="width:100%; height:70px; position: relative; float: right;">
             <button type="button" class="btn btn-danger" onclick="window.location = '#googleplaystore'"style="position: absolute; bottom:0; right: 0; margin-right: 30px; margin-bottom: 55px;">Prev</button>
             <button type="button" class="btn btn-danger" onclick="window.location = '#footer'"style="position: absolute; bottom:0; right: 0; margin-right: 30px; margin-bottom: 15px;">Next</button>
         </div>
     </div>
 
     <!-- FOOTER -->
-    <footer class="container-fluid text-center" id="footer">
+    <footer class="container-fluid text-center" id="footer" style="background-color: #ebd5bd">
         <a href="#story" title="To Top">
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a>

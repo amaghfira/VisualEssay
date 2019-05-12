@@ -2,6 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 
+h2, h3 {
+  font-weight: 800;
+}
+
 .jumbotron {
     background: url('../img/background-conceptual-data-1906440.jpg');
     opacity: 0.7;
@@ -31,6 +35,7 @@ html{
     letter-spacing: 4px;
     border-radius: 0;
     font-family: Monserrat,sans-serif;
+    
   }
   
   .navbar li a, .navbar .navbar-brand {
@@ -68,6 +73,11 @@ html{
     
 }
 
+div.gps-content {
+  height: 70vh;
+  overflow: scroll;
+}
+
 /* CAROUSEL */
 
 .carousel-control.right, .carousel-control.left {
@@ -98,6 +108,16 @@ html{
   padding-right: 10px;
   /* margin-right: 5px; */
   text-align: justify;
+  margin-bottom: 3px;
+}
+
+div.gambar-2 {
+  height: 450px;
+  overflow:scroll; 
+}
+
+div.ceritaku {
+  height: 600px;
 }
 
   /* FOOTER */
@@ -110,3 +130,4 @@ html{
   .asw{
     background-image: url('../img/bekgron5.jpg')
   }
+
